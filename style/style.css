@@ -1,0 +1,59 @@
+.container {
+    max-width: 1140px;
+    margin: auto;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+nav>a.ativa {
+    background-color: blueviolet;
+    padding: 20px;
+    color: #FFF;
+}
+
+img {
+    max-width: 100%;
+}
+
+.flex {
+    display: flex;
+}
+
+header {
+    justify-content: space-between;
+    align-items: center;
+    height: 150px;
+}
+
+.item2 {
+    background-color: rgba(5, 5, 5, 0.753);
+    margin-left: 15px;
+}
+
+.item2 aside {
+    padding: 15px;
+}
+
+@media only screen and (max-width: 600px) {
+    .flex {
+        display: block;
+    }
+}
+
+.children2, .children3 {
+    width: 50%;
+}
+
+.children3 a {
+    text-decoration: none;
+    background-color: darksalmon;
+    padding: 10px 35px;
+    color: #fff;
+}
